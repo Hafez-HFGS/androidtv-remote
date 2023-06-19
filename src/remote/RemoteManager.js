@@ -25,7 +25,7 @@ class RemoteManager extends EventEmitter {
             console.debug("Start Remote Connect");
 
             this.client = tls.connect(options, () => {
-                //console.debug("Remote connected")
+                console.debug("Remote connected")
             });
 
             this.client.on('timeout', () => {
@@ -50,7 +50,7 @@ class RemoteManager extends EventEmitter {
                     let message = remoteMessageManager.parse(this.chunks);
 
                     if(!message.remotePingRequest){
-                        //console.debug(this.host + " Receive : " + Array.from(this.chunks));
+                        console.debug(this.host + " Receive22 : " + Array.from(this.chunks));
                         console.debug(this.host + " Receive : " + JSON.stringify(message.toJSON()));
                     }
 
