@@ -32,8 +32,8 @@
     "babel-plugin-transform-import-meta": "^2.1.0"
   },
   "type": "commonjs",
-  "homepage": "https://github.com/louis49/androidtv-remote",
+  "homepage": "https://github.com/Hafez-HFGS/androidtv-remote.git",
   "bugs": {
-    "url": "https://github.com/louis49/androidtv-remote/issues"
+    "url": "https://github.com/Hafez-HFGS/androidtv-remote.git"
   }
 }
