@@ -11,7 +11,7 @@ let line = Readline.createInterface({
     output: process.stdout
 });
 
-let host = "192.168.1.31";
+let host = "192.168.134.176";
 let options = {
     pairing_port : 6467,
     remote_port : 6466,
@@ -60,7 +60,7 @@ androidRemote.on('ready', async () => {
     androidRemote.sendAppLink("https://www.disneyplus.com");
 });
 
-let started = await androidRemote.start();
+let started =  androidRemote.start();
 
 
 
